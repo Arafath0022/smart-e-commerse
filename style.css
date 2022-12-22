@@ -1,0 +1,113 @@
+body{
+    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+#navbarNav{
+    justify-content: right;
+    font-size: 17px;
+    font-weight: 500;
+    color: gray;
+}
+.nav-item{
+    padding: 0 20px;
+    text-align: center;
+}
+.banner h1{
+    padding-bottom: 30px;
+}
+.banner p{
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.button{
+    border: 1px solid white;
+    background: black;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.button:hover{
+    background: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.smartphone{
+    margin-bottom: 100px;
+}
+.smartphone-header p{
+    color: orange;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.star{
+    font-size: 20px;
+    color: orange;
+}
+
+.card{
+    border-radius: 10px;
+}
+
+.card-footer{
+    border-top: none;
+}
+
+
+.card-text{
+    margin-bottom: 30px;
+}
+
+.categories{
+    text-align: center;
+}
+
+
+.hr{ 
+    width: 130px;
+    border-top: 5px solid orangered;
+    opacity: 1;
+    border-radius: 3px;
+}
+
+.o{
+    text-align: center;
+    justify-content: right;
+}
+
+.pcard{
+    width: 180px;
+    height: 220px;
+    box-shadow: 5px 5px 15px lightgray;
+    border-radius: 10px;
+}
+
+.pcard img{
+    padding-top: 20px;
+    
+}
+.pcard h4{
+    padding-top: 25px;
+}
+
+footer{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+a:hover{
+    color: gray;
+}
