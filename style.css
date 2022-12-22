@@ -86,8 +86,13 @@ body{
     height: 220px;
     box-shadow: 5px 5px 15px lightgray;
     border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
+.pcard:hover{
+    background-color: rgb(240, 240, 240);
+}
 .pcard img{
     padding-top: 20px;
     
